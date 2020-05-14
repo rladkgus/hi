@@ -1,0 +1,38 @@
+*{margin: 0; padding: 0;}
+li{list-style: none;}
+a {color: #222328; text-decoration: none;}
+
+#wrap{width: 100%; background: #fff;}
+.container{width: 1200px; margin: 0 auto;}
+
+#header{overflow: hidden;}
+#header h1{float: left; padding: 10px;}
+#header h1 img{width: 100px;}
+#header nav{float: right;}
+#header nav li{display: inline;}
+#header nav li a{display: inline-block; padding: 20px 10px;}
+
+#banner{padding-bottom: 10px;}
+#banner img{width: 100%;}
+
+#content1{overflow: hidden; margin-bottom: 10px;}
+#content1 .con1{width: 49%; border: 1px solid #ccc; box-sizing: border-box; margin-right: 2%; float: left; padding: 20px;}
+#content1 .con1 h2{margin-bottom: 10px;}
+#content1 .con1 img{width: 20px; height: 20px;}
+#content1 .con1 li{}
+#content1 .con1 li a{float: left; width: 70%;}
+#content1 .con1 li span{float: left; width: 30%; text-align: right;}
+#content1 .con1 a{float: right;}
+
+#content1 .con2{width: 49%; float: left;}
+#content1 .con2 img{width: 100%;}
+
+#content2{overflow: hidden;}
+#content2 h2{margin-bottom: 10px;}
+#content2 li{float: left; width: 24.25%; margin-right: 12px;}
+#content2 li img{width: 100%;}
+#content2 li:last-child{margin-right: 0;}
+#content2 li em{font-style: normal;}
+
+#footer{margin-top: 30px;}
+#footer h5{}
