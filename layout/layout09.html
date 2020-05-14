@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>layout</title>
+    <style>
+    * {margin: 0; padding: 0}
+        #wrap{}
+        #h {height: 100px; background: #111; }
+        #h .saaa{height: 50px; background-color: aqua;}
+        #h .bbb{height: 50px; background-color: red;}
+        #b {height: 300px; background: #222; }
+        #c1 {overflow: hidden; height: 500px; background: #333; }
+        #c1 .con .box {float: left; width: 300px;height: 200px; background-color: aqua;margin: 10px;display: inline-block;}
+        #c2 {overflow: hidden; height: 200px; background: #444; }
+        #c2 .con .sbox {float: left; width: 160px; height: 100px; background-color: aqua;margin: 10px;display: inline-block;}
+        #c3 { overflow: hidden;background: #555; }
+        #c3 .con .nn{ float: left;width: 450px; height: 300px; background-color: aqua; margin: 10px;display: inline-block; }
+        #c3 .con .nn .con1{ }
+        #c3 .con .nn .con1 h4 {color: aqua; font-size: 16px}
+        #c3 .con .nn .con1 ul { }
+        #c3 .con .nn .con1 ul li {text-overflow: ellipsis; white-space: nowrap;  }
+        #c3 .con .nn .con1 a.red{ }
+        
+        #f {height: 100px; background: #666; }
+        
+        .con{width: 1000px; height: inherit; background-color: rgba(0,0,0,0.2); margin: 0 auto; }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div id="h">
+            <div class="con" >
+                <div class="saaa"></div>
+                <div class="bbb"></div>
+            </div>
+        </div>
+        <div id="b">
+             <div class="con">
+            
+            </div>
+        </div>
+        <div id="c1">
+            <div class="con">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+        </div>
+        <div id="c2">  
+            <div class="con">
+                  <div class="sbox"></div>
+                  <div class="sbox"></div>
+                  <div class="sbox"></div>
+                  <div class="sbox"></div>
+                  <div class="sbox"></div>
+            </div>
+        </div>
+        <div id="c3">
+            <div class="con">
+                <div class="nn">
+                    <div class="con1">
+                        <h4>웹 퍼블리셔 면접 질문</h4>
+                        <ul>
+                            <li>웹 퍼블리셔 면접 질문웹 퍼블리셔 면접 질문웹 퍼블리셔 면접 질문웹 퍼블리셔 면접 질문</li>
+                            <li>웹 퍼블리셔 면접 질문웹 퍼블리셔 면접 질문웹 퍼블리셔 면접 질문웹 퍼블리셔 면접 질문웹 퍼블리셔 면접 질문</li>
+                            <li>웹 퍼블리셔 면접 질문웹 퍼블리셔 면접 질문</li>
+                            <li>웹 퍼블리셔 면접 질문웹 퍼블리셔 면접 질문웹 퍼블리셔 면접 질문</li>
+                            <li>웹 퍼블리셔 면접 질문웹 퍼블리셔 면접 질문웹 퍼블리셔 면접 질문</li>
+                        </ul>
+                        <a href="#" class="red">red</a>
+                    </div>
+                </div>
+                <div class="nn">
+                    <div class="con2"></div>
+                </div>
+            </div>
+        </div>
+        <div id="f">
+            <div class="con">
+            
+            </div>
+        </div>
+    </div>
+</body>
+</html>
