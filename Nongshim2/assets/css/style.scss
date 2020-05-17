@@ -22,6 +22,21 @@
         color: #fff;
         text-align: center;
     }
+    .btn-quick {
+        a {
+            position: absolute; left: 50%; bottom: 25px;
+            z-index: 1000;
+            width: 50px; height: 50px;
+            margin-left: -25px;
+            background: #96c11f ;
+            box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+            img {
+                width: 30px;
+                transform: rotate(-90deg);
+               margin-top: 10px;
+            }
+        }
+    }
 }
 .container{
     margin: 0 auto;
@@ -251,3 +266,109 @@ body{
     }
 
 }
+#content2{
+    .cont-header{
+        .container{
+            .title5{
+                font-size: 28px;
+                font-weight: 550;
+                color: #539A00;
+                margin-bottom: 50px;
+            }
+            img{
+                margin-bottom: 20px;
+            }
+            .text5{
+                margin-top: 32px;
+                line-height: 34px;
+                font-size: 20px;
+                font-weight: 400;
+                text-align: left;
+                }
+        }
+    }
+}
+
+#content2{
+    .cont-banner{
+        .container{
+            
+            .title6{
+                margin: 100px 0 0;
+                font-size: 28px;
+                font-weight: 550;
+                color: #539A00;
+            }
+            img{
+                margin-bottom: 20px;
+            }
+            .text6{
+                margin-top: 32px;
+                line-height: 34px;
+                font-size: 20px;
+                font-weight: 400;
+                text-align: left;
+                margin-bottom: 30px;
+                }
+        }
+    }
+}
+
+#content2{
+    .cont-content{
+        .container{
+            
+            .title7{
+                margin: 195px 70px 0 0;
+                font-size: 28px;
+                font-weight: 550;
+                color: #539A00;
+                margin-bottom: 50px;
+            }
+            img{
+                margin-bottom: 20px;
+            }
+            .text7{
+                margin-top: 32px;
+                line-height: 34px;
+                font-size: 20px;
+                font-weight: 400;
+                text-align: left;
+                }
+        }
+    }
+}
+
+#footer{
+    .container{
+        width:1200px; margin:0 auto;
+        position: relative;
+        h3{}
+        
+        figcaption{
+           .ul1{
+            margin-top: 20px;
+               li{
+                   display: inline-block;
+                   margin-top: 10px;
+                   margin-bottom: 20px;
+               }
+           }
+           .ul2{
+               position: relative;
+               margin-bottom: 30px;
+            li{
+                display: inline-block;
+                margin-top: 10px;
+            }
+        }
+        figure{
+            display: flex;
+            //width: 50px; height: 50px;
+            position: absolute;
+            right: 20px; top: 0;
+        }
+        }
+    }
+}
+

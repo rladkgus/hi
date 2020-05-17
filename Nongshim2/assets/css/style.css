@@ -36,6 +36,26 @@
   text-align: center;
 }
 
+#header .btn-quick a {
+  position: absolute;
+  left: 50%;
+  bottom: 25px;
+  z-index: 1000;
+  width: 50px;
+  height: 50px;
+  margin-left: -25px;
+  background: #96c11f;
+  -webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+#header .btn-quick a img {
+  width: 30px;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  margin-top: 10px;
+}
+
 .container {
   margin: 0 auto;
   width: 1200px;
@@ -308,5 +328,99 @@ body {
   bottom: 0;
   left: 0;
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+#content2 .cont-header .container .title5 {
+  font-size: 28px;
+  font-weight: 550;
+  color: #539A00;
+  margin-bottom: 50px;
+}
+
+#content2 .cont-header .container img {
+  margin-bottom: 20px;
+}
+
+#content2 .cont-header .container .text5 {
+  margin-top: 32px;
+  line-height: 34px;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+}
+
+#content2 .cont-banner .container .title6 {
+  margin: 100px 0 0;
+  font-size: 28px;
+  font-weight: 550;
+  color: #539A00;
+}
+
+#content2 .cont-banner .container img {
+  margin-bottom: 20px;
+}
+
+#content2 .cont-banner .container .text6 {
+  margin-top: 32px;
+  line-height: 34px;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+#content2 .cont-content .container .title7 {
+  margin: 195px 70px 0 0;
+  font-size: 28px;
+  font-weight: 550;
+  color: #539A00;
+  margin-bottom: 50px;
+}
+
+#content2 .cont-content .container img {
+  margin-bottom: 20px;
+}
+
+#content2 .cont-content .container .text7 {
+  margin-top: 32px;
+  line-height: 34px;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+}
+
+#footer .container {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#footer .container figcaption .ul1 {
+  margin-top: 20px;
+}
+
+#footer .container figcaption .ul1 li {
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#footer .container figcaption .ul2 {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+#footer .container figcaption .ul2 li {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+#footer .container figcaption figure {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  right: 20px;
+  top: 0;
 }
 /*# sourceMappingURL=style.css.map */
