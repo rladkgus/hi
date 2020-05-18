@@ -43,21 +43,43 @@
   padding: 26px 20px;
 }
 
-.header .nav li.live a {
+.header .nav li a span {
+  position: relative;
+}
+
+.header .nav li a span::before {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-top: 2px solid #d83832;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.header .nav li a:hover span::before {
+  width: 100%;
+}
+
+.header li.live a {
   border: 1px solid #fff;
   border-radius: 20px;
   padding: 4px 20px 6px 20px;
 }
 
-.header .side-nav {
+.side-nav {
   margin-right: 40px;
 }
 
-.header .side-nav li {
+.side-nav li {
   display: inline;
 }
 
-.header .side-nav li a {
+.side-nav li a {
   width: 25px;
   display: inline-block;
   padding: 28px 10px 20px 20px;

@@ -1,0 +1,83 @@
+#cont{
+    .container{
+        width:1200px;
+        margin: 0 auto;
+        position: relative;
+        padding-left: 30px;
+        padding-right: 30px;
+        box-sizing: border-box;
+        .rule-item{
+            padding: 125px 20px 40px 20px;
+            margin-top: -125px;
+            margin-bottom: 30px;
+        }
+        .title-wrap{
+            position: relative;
+            border-bottom: 1px solid #000;
+            padding-bottom: 40px;
+            .title{
+                padding-top: 40px;
+                font-size: 36px;
+                font-weight: 600;
+                
+                &::before{
+                    content:'';
+                    position: absolute;
+                    left: 0;
+                    top:0;
+                    width:36px;
+                    height:36px;
+                    background:#96c11f;
+                    border-radius: 50%;
+                }
+            }
+            .cont{
+                position:absolute;
+                right: 0;
+                right: 20px;
+                bottom: 30px;
+                font-size: 16px;
+            }
+        }
+        .textwrap{
+            box-sizing: border-box;
+        padding: 0 20px;
+            h2{
+                margin: 60px 0 10px;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 600;
+                color: #000;
+            }
+            li{
+                color: #666;
+                line-height: 1.7;
+                font-size: 16px;
+            }
+        }
+        
+    }
+    .hyphen-type01{
+        p{
+        
+            &::before{
+                color:#666;
+                content: ".";
+                font-size: 18px;
+                top: -2px;
+            }
+        }
+    }
+    .hyphen-type02{
+        margin: 30px 20px;
+        p{
+            padding-left: 20px;
+            &::before{
+                color:#666;
+                content: "-";
+                font-size: 18px;
+                top: -1px;
+            }
+        }
+    }
+}
