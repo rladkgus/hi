@@ -2,8 +2,8 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "../../move/css/style.sass"
+        "style.sass"
     ],
     "names": [],
-    "file": "style.min.css"
+    "file": "style.css"
 }
