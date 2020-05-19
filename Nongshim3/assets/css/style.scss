@@ -17,6 +17,29 @@
             padding: 125px 20px 40px 20px;
             margin-top: -125px;
             margin-bottom: 30px;
+            ul{
+                height: 256px;
+                display: flex;
+                flex-flow: column wrap;
+                margin-bottom: 60px;
+                background: #f4f4f4;
+                padding: 50px 45px;
+                margin-top: 20px;
+                box-sizing: border-box;
+                li{
+                    font-size: 1rem;
+                    font-weight: 900;
+                    line-height: 2.4;
+                    color: #212529;
+                    text-align: left;
+                    
+                    }
+                    span{
+                        padding-bottom: 2px;
+                        border-bottom: 1px solid #ca0202;
+                    }
+                }
+            }
         }
         .title-wrap{
             position: relative;
@@ -92,4 +115,8 @@
             }
         }
     }
-}
+
+    .font-bold{
+        font-weight: bold;
+        
+    }
