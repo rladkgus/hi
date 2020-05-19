@@ -7,13 +7,19 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/swiper.css">
+    <link rel="stylesheet" href="assets/css/all.css">
+
 </head>
 <body>
     <section id="header">
-        
-        <h2><span>율촌재단</span></h2>
-        <div>사랑과 열정으로 더불어 함께 하는 세상만들기,<br>
-                율촌재단의 작은 시작입니다.
+      <h2><span>율촌재단</span></h2>
+        <div class="nongshimbox">
+          <span class="line-1"></span>
+          <span class="line-2"></span>
+          <span class="circle"></span>
+          <div class = "titeldesc">사랑과 열정으로 더불어 함께 하는 세상만들기,<br>
+                  율촌재단의 작은 시작입니다.
+          </div>
         </div>
         <div class="btn-quick">
             <a href="#"><img src="assets/img/icon-arrow.svg" alt="다음 섹션 가기"></a>
@@ -176,36 +182,7 @@
         <div class="cont-content">
             
         </div>
-        <footer id="footer">
-            <div class="container">
-                <h3></h3>
-                
-                <figcaption>
-                    <ul class="ul1">
-                    <li>상담접수 </li> | <li>>FAQ </li> | <li>오시는 길</li> | <li>이용약관 </li> | <li>개인정보처리 방침</li><br>
-                    <li>특약점 포탈</li> | <li>전자 결제</li> | <li>증명서 조회</li> | <li>이메일주소무단수집거부</li>
-                    </ul>
-                    <ul class="ul2">
-                    <li>(주)농심</li> | <li>서울특별시 동작구 여의대방로 112 (신대방동)</li> | <li>사업자등록번호118-81-03914</li> | <li>대표이사박준 </li><br>
-                    <li>대표전화 02.820.7114</li> | <li>고객센터 080.023.5181 </li>
-                    <figure>
-                        <img src="../Nongshim/assets/img/facebook.svg" alt="이미지">
-                        <img src="../Nongshim/assets/img/instagram.svg" alt="이미지">
-                        <img src="../Nongshim/assets/img/youtube.svg" alt="이미지">
-                        <img src="../Nongshim/assets/img/blog.png" alt="이미지">
-                    </figure>
-                    </ul>
-                    <p>©  NONGSHIM CO.,LTD. ALL RIGHTS RESERVED.</p>
-                    <!-- <figure>
-                        <img src="../Nongshim/assets/img/facebook.svg" alt="이미지">
-                        <img src="../Nongshim/assets/img/instagram.svg" alt="이미지">
-                        <img src="../Nongshim/assets/img/youtube.svg" alt="이미지">
-                        <img src="../Nongshim/assets/img/blog.png" alt="이미지">
-                    </figure> -->
-                    
-                </figcaption>
-            </div>
-        </footer>
+       
     </section>
     <section id="nav">
         <div class="swiper-container">
@@ -218,25 +195,37 @@
             </div>
             <div class="swiper-slide">
               <a href="#">
-                <span>상담접수</span>
+                <span>사회공헌</span>
                 <div class="img"></div>
               </a>
             </div>
             <div class="swiper-slide">
               <a href="#">
-                <span>자주 묻는 질문</span>
+                <span>연구개발</span>
                 <div class="img"></div>
               </a>
             </div>
             <div class="swiper-slide">
               <a href="#">
-                <span>공장견학</span>
+                <span>환경&middot;안전</span>
                 <div class="img"></div>
               </a>
             </div>
             <div class="swiper-slide">
               <a href="#">
-                <span>오시는길</span>
+                <span>동반성장</span>
+                <div class="img"></div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#">
+                <span>준법경영</span>
+                <div class="img"></div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#">
+                <span>소비자중심경영</span>
                 <div class="img"></div>
               </a>
             </div>
@@ -273,18 +262,22 @@
               <li><a href="#"><img src="assets/img/facebook.svg" alt="페이스북"></a></li>
               <li><a href="#"><img src="assets/img/instagram.svg" alt="페이스북"></a></li>
               <li><a href="#"><img src="assets/img/youtube.svg" alt="페이스북"></a></li>
-              <li><a href="#"><img src="assets/img/blog.svg" alt="페이스북"></a></li>
+              <li><a href="#"><img src="assets/img/blog.png" alt="페이스북"></a></li>
             </ul>
           </div>
           <p>ⓒ  NONGSHIM CO.,LTD. ALL RIGHTS RESERVED.</p>
         </div>
       </footer>
-    <script src="assets/js/custom.js"></script>
+    
     <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/custom.js"></script>
     <script src="assets/js/jquery.min.js"></script>
-
+   
+    </script>
     <script>
-
+      $(window).load(function(){
+        $("#header").addClass("active");
+      });
     </script>
 </body>
 </html>
